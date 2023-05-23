@@ -1,0 +1,85 @@
+@font-face {
+    font-family: mario;
+    src: url(./super-mario.ttf);
+}
+
+/*Fonte de Super Mario*/
+
+:root {
+    --cor1: #4AC8AD;
+    --cor2: #D5E7DB;
+    --cor3: #4C8261;
+} /*https://mycolor.space/ site para paleta*/
+
+body {
+    font-family: 'mario', sans-serif;
+    font-style: var(--cor2);
+    background-image: url(ceu_free_img.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;                                            
+}
+
+#intro-pag {
+    border: 2px rgb(255, 255, 255) solid;
+    width: 1000px;
+    margin: auto;
+    padding: 50px;
+}
+
+#titulo {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: white 2px solid;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.efeito {
+    color: var(--cor2);
+    background: var(--cor3);
+    border-radius: 30px;
+    width: 30%;
+}
+
+.efeito:hover {
+    background-color: var(--cor2);
+    color: var(--cor3);
+    transition: 1s;
+}
+
+.conteudo-padrao {
+    margin-left: auto;
+    margin-right: auto;
+    border: white 2px solid;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 70%;
+    text-align: center;
+}
+
+#texto {
+    border: 2px rgb(255, 255, 255) solid;
+    background-color: var(--cor1);
+    margin: auto;
+    padding: 1px;
+}
+
+.voltar {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: white 3px solid;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 15%;
+}
